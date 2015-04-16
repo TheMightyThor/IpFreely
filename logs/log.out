@@ -1,0 +1,6 @@
+AppLogger 37 [main] 15 Apr,2015 22:41:59.459 INFO  - Logger Initialized
+IpaLoader 23 [JavaFX Application Thread] 15 Apr,2015 22:42:00.726 INFO  - IpaLoader - start
+IpaLoader 32 [JavaFX Application Thread] 15 Apr,2015 22:42:01.789 INFO  - Days Left = -394
+AppLogger 37 [main] 15 Apr,2015 22:43:48.616 INFO  - Logger Initialized
+IpaLoader 23 [JavaFX Application Thread] 15 Apr,2015 22:43:48.825 INFO  - IpaLoader - start
+IpaLoader 32 [JavaFX Application Thread] 15 Apr,2015 22:43:49.492 INFO  - Days Left = 216

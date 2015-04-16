@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="IpFreely.jnlp">
+  <information>
+    <title>IpFreely</title>
+    <vendor></vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="IpFreely.jar" size="664731" download="eager" />
+    <jar href="libs/activation-1.1.jar" size="62983" download="eager" />
+    <jar href="libs/imgscalr-lib-4.2.jar" size="226824" download="eager" />
+    <jar href="libs/jaxb-api-2.1.jar" size="89967" download="eager" />
+    <jar href="libs/jersey-client-1.18.jar" size="133900" download="eager" />
+    <jar href="libs/jersey-core-1.18.jar" size="479316" download="eager" />
+    <jar href="libs/log4j-1.2.17.jar" size="489884" download="eager" />
+    <jar href="libs/stax-api-1.0-2.jar" size="23346" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="com.javafx.main.NoJavaFXFallback"  name="IpFreely" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="0" height="0" main-class="com.cogentsolutions.ipa.IpaLoader"  name="IpFreely" />
+  <update check="background"/>
+</jnlp>

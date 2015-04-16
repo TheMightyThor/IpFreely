@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.cogentsolutions.ipa.* ?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.cogentsolutions.ipa.ExpirePopupController">
+  <!-- TODO Add Nodes -->
+  <center>
+    <AnchorPane prefHeight="106.0" prefWidth="283.0">
+      <children>
+        <Label id="daysLeft" fx:id="daysLeftDynamic" alignment="CENTER" contentDisplay="CENTER" layoutX="190.0" layoutY="29.0" prefHeight="54.0" prefWidth="64.0" text="0">
+          <font>
+            <Font name="Arial" size="35.0" />
+          </font>
+        </Label>
+        <Label contentDisplay="CENTER" layoutX="26.0" layoutY="39.0" prefHeight="29.0" prefWidth="174.0" text="Days Until Expiration">
+          <font>
+            <Font size="16.0" fx:id="x1" />
+          </font>
+        </Label>
+      </children>
+    </AnchorPane>
+  </center>
+</BorderPane>
